@@ -1,0 +1,87 @@
+.picture {
+  height: 25rem;
+  object-fit: contain;
+}
+.nameContent {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-weight: 300;
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+    margin: 0.8rem 0 1.5rem 0;
+    font-weight: 300;
+  }
+  @media (max-width: 789px) {
+    order: 2;
+  }
+}
+
+.name {
+  h2 {
+    margin-bottom: 1.8rem;
+  }
+}
+
+.about_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: start;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.containerImg {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  img {
+    z-index: 2;
+    filter: brightness(90%);
+  }
+  @media (max-width: 789px) {
+    order: 1;
+  }
+}
+
+.circle {
+  position: absolute;
+  z-index: 0;
+  left: 14%;
+  width: 380px; /* Définit la largeur du cercle */
+  height: 380px; /* Définit la hauteur du cercle */
+  background-image: radial-gradient(
+    circle,
+    var(--secondary) 30%,
+    transparent 70%
+  );
+  border-radius: 50%; /* Rend l'élément circulaire */
+}
+
+.fade {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px; /* Ajustez selon l'intensité du fondu désirée */
+  background: linear-gradient(
+    to top,
+    var(--background),
+    rgba(206, 206, 206, 0)
+  );
+}

@@ -1,0 +1,62 @@
+.describeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 8rem;
+  p {
+    width: 30rem;
+    padding-top: 3rem;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+}
+.imageContainer {
+  position: relative;
+  display: inline-block;
+  img {
+    display: block;
+    max-width: 100%;
+    height: 30rem;
+  }
+}
+
+.imageContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle, transparent 40%, var(--background) 70%);
+  opacity: 1;
+}
+
+@keyframes wave-animation {
+  0% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: 1000px 50%;
+  }
+}
+
+.wavylines {
+  width: 12rem;
+  height: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='40' viewBox='0 0 100 40'%3E%3Cpath d='M0 20 Q 12.5 0, 25 20 T 50 20 T 75 20 T 100 20' fill='none' stroke='%236fcbfa' stroke-width='2'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  animation: wave-animation 15s linear infinite;
+}
+
+.reseaux {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 25px;
+  i {
+    color: aliceblue;
+    font-size: 1.8rem;
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "titre": "Projet react: Sport See",
+    "type": "react",
+    "image": "img/sportseeSite.webp",
+    "image2": "img/acceuil_sportsee.webp",
+    "paragraphe": "Ce projet permet de récupéré de information provenant d'une API externe et utilise recharts pour afficher des données graphique d'un utilisateur spécifique.  ",
+    "site": "#",
+    "github": "https://github.com/MarcusDeveloppement/SportSee-Front-P12"
+  },
+  {
+    "id": 2,
+    "titre": "Projet PHP: Blog",
+    "type": "php",
+    "image": "img/blog1.webp",
+    "image2": "img/blog2.webp",
+    "image3": "img/blog3.webp",
+    "paragraphe": "Ce projet permet d'appliquer la méthode CRUD en utilisant PDO pour la relation entre la partie serveur avec mysql et la partie front ",
+    "site": "#",
+    "github": "https://github.com/MarcusDeveloppement/Blog_PHP"
+  },
+  {
+    "id": 3,
+    "titre": "Projet JS: Les petits plats",
+    "type": "js",
+    "image": "img/plats1.webp",
+    "image2": "img/plats2.webp",
+    "paragraphe": "Ce projet permet de récupéré de information ",
+    "site": "#",
+    "github": "#"
+  },
+  {
+    "id": 4,
+    "titre": "Projet Symphony",
+    "type": "symphony",
+    "image": "img/UnderConstruction.jpg",
+    "paragraphe": "Projet en cours .... retrouver d'autres projet directement depuis mon profil github ;)",
+    "site": "#",
+    "github": "#"
+  }
+]

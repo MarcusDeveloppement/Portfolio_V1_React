@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  font-size: 1.5rem;
+  position: relative;
+  margin-bottom: 2rem;
+  a {
+    padding: 1rem;
+    margin: 2rem;
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 3rem;
+  height: 100%;
+  justify-content: center;
+}

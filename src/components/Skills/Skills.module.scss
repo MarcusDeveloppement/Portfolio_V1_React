@@ -1,0 +1,35 @@
+.card {
+  width: 20%;
+  border: solid 1px var(--primary);
+  border-radius: 5px;
+  padding: 1rem;
+  p {
+    text-align: justify;
+  }
+  h4 {
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  i {
+    font-size: 2rem;
+    padding: 0 1rem 0 0;
+  }
+}
+.skills {
+  h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+}
+.cardContent {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container {
+  margin-bottom: 8rem;
+}

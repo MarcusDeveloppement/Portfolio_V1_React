@@ -1,0 +1,68 @@
+import React, { useState } from "react";
+import data from "../../Data/data.json";
+import styles from "./Projects.module.scss";
+import Modale from "../Modale/Modale";
+import Carousel from "../Carousel/Carousel";
+
+export default function Projects() {
+  const [projetActuel, setProjetActuel] = useState(null);
+  const [modaleOuverte, setModaleOuverte] = useState(false);
+  console.log(projetActuel);
+
+  const ouvrirModale = (id) => {
+    const projetTrouve = data.find((projet) => projet.id === id);
+    setProjetActuel(projetTrouve);
+    setModaleOuverte(true);
+  };
+
+  return (
+    <section className={styles.projectsContainer} data-aos="fade-left">
+      <h2>Projets</h2>
+      <div className={styles.buttonContainer}>
+        {data.map((projet) => (
+          <button
+            key={projet.id}
+            onClick={() => ouvrirModale(projet.id)}
+            className={`${styles.projectButton} ${styles[projet.type]}`}
+          >
+            <p>{projet.titre}</p>
+          </button>
+        ))}
+      </div>
+
+      <Modale ouverte={modaleOuverte} fermer={() => setModaleOuverte(false)}>
+        {projetActuel && (
+          <div className={styles.modalContent}>
+            <h2>{projetActuel.titre}</h2>
+            <Carousel
+              images={[
+                projetActuel.image,
+                projetActuel.image2,
+                projetActuel.image3,
+              ].filter(Boolean)}
+            />
+            <p>{projetActuel.paragraphe}</p>
+            <div className={styles.navlink}>
+              {" "}
+              <a
+                href={projetActuel.site}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Site du projet
+              </a>
+              <a
+                href={projetActuel.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ marginLeft: "10px" }}
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        )}
+      </Modale>
+    </section>
+  );
+}

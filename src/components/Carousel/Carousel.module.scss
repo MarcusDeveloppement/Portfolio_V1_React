@@ -1,0 +1,24 @@
+.carouselContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.carouselButton {
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: inherit;
+  border: none;
+  font-size: 2rem;
+  &:hover {
+    color: var(--accent);
+    background: none;
+  }
+}
+
+.carouselImage {
+  width: 90%;
+  max-width: 600px;
+  height: 420px;
+}
