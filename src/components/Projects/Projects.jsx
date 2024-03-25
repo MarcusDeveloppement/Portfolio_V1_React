@@ -19,7 +19,7 @@ export default function Projects() {
     <section
       id="projects"
       className={styles.projectsContainer}
-      data-aos="fade-left"
+      data-aos="fade-down"
     >
       <div className={styles.buttonContainer}>
         <h2 className={styles.h31}>MES PROJETS</h2>

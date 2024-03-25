@@ -57,6 +57,9 @@
     justify-content: center;
     flex-wrap: wrap;
   }
+  @media (max-width: "425px") {
+    align-items: center;
+  }
 }
 
 .content {
@@ -86,6 +89,12 @@
     position: initial;
     transform-origin: 0;
     transform: none;
+  }
+  @media (max-width: "425px") {
+    width: 14rem;
+    h2 {
+      font-size: 2.5rem !important;
+    }
   }
   h2 {
     margin-bottom: 0;

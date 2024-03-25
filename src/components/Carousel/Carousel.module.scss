@@ -12,6 +12,7 @@
   border: none;
   font-size: 2rem;
   &:hover {
+    box-shadow: none;
     color: var(--accent);
     background: none;
   }
@@ -21,4 +22,7 @@
   width: 90%;
   max-width: 600px;
   height: 420px;
+  @media (max-width: "425px") {
+    height: 280px;
+  }
 }

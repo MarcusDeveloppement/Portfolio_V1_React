@@ -62,14 +62,17 @@
   position: absolute;
   z-index: 0;
   left: 14%;
-  width: 380px; /* Définit la largeur du cercle */
-  height: 380px; /* Définit la hauteur du cercle */
+  width: 380px;
+  height: 380px;
   background-image: radial-gradient(
     circle,
     var(--secondary) 30%,
     transparent 70%
   );
-  border-radius: 50%; /* Rend l'élément circulaire */
+  border-radius: 50%;
+  @media (max-width: "425px") {
+    left: 3%;
+  }
 }
 
 .fade {
@@ -78,7 +81,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100px; /* Ajustez selon l'intensité du fondu désirée */
+  height: 100px;
   background: linear-gradient(
     to top,
     var(--background),

@@ -45,6 +45,7 @@ const ContactForm = () => {
       id="contact"
       onSubmit={formik.handleSubmit}
       className={styles.nameContent}
+      data-aos="zoom-in"
     >
       <div className={styles.formContainer}>
         <h2>Contactez-moi</h2>

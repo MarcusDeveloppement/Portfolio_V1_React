@@ -77,4 +77,7 @@
   button {
     margin: 0.8rem;
   }
+  @media (max-width: "425px") {
+    width: 94%;
+  }
 }

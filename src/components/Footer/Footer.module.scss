@@ -9,4 +9,9 @@
     background-color: var(--secondary);
     box-shadow: 4px 3px var(--accent);
   }
+  @media (max-width: "425px") {
+    p {
+      width: 10rem;
+    }
+  }
 }
