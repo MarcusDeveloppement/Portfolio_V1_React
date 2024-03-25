@@ -23,6 +23,9 @@
   margin-top: 10px;
   background-color: var(--accent);
   color: #eee;
+  &:hover {
+    background-color: var(--secondary);
+  }
 }
 
 .btnContent {

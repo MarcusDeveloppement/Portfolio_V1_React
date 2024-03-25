@@ -8,6 +8,10 @@ body {
   background-color: var(--background);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html h1,
 h2,
 h3,
@@ -42,7 +46,6 @@ h2 {
   color: #eee;
   margin-bottom: 4rem;
   font-weight: 800;
-  text-shadow: var(--accent) 0px 10px 5px;
 }
 
 button {
@@ -54,7 +57,7 @@ button {
   font-weight: 500;
   padding: 0.4rem 0.6rem;
   border: 1px solid var(--secondary);
-  transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.3s ease;
   cursor: pointer;
   &:hover {
     background-color: var(--accent);

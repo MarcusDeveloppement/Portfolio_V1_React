@@ -16,9 +16,13 @@ export default function Projects() {
   };
 
   return (
-    <section className={styles.projectsContainer} data-aos="fade-left">
-      <h2>Projets</h2>
+    <section
+      id="projects"
+      className={styles.projectsContainer}
+      data-aos="fade-left"
+    >
       <div className={styles.buttonContainer}>
+        <h2 className={styles.h31}>MES PROJETS</h2>
         {data.map((projet) => (
           <button
             key={projet.id}
@@ -28,6 +32,15 @@ export default function Projects() {
             <p>{projet.titre}</p>
           </button>
         ))}
+        <a
+          className={styles.h32}
+          href="https://github.com/MarcusDeveloppement?tab=repositories"
+          target="_blank"
+        >
+          <p>
+            VOIR PLUS <i className="fa-regular fa-hand-point-right"></i>
+          </p>
+        </a>
       </div>
 
       <Modale ouverte={modaleOuverte} fermer={() => setModaleOuverte(false)}>

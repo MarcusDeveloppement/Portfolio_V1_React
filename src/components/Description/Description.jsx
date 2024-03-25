@@ -4,12 +4,12 @@ import web from "../../assets/images/hoodie.webp";
 export default function Description() {
   return (
     <div id="about" className={styles.describe} data-aos="fade-right">
-      <h2>À PROPOS</h2>
       <div className={styles.describeContainer}>
         <div className={styles.imageContainer}>
           <img src={web} alt="image web" />
         </div>
         <div className={styles.textContent}>
+          <h2>À PROPOS</h2>
           <p>
             Passionné par le monde du web depuis toujours, j'ai récemment pris
             la décision de changer de voie pour poursuivre ma passion. Mon

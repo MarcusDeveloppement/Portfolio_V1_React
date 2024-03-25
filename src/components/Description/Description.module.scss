@@ -5,9 +5,14 @@
   margin-bottom: 8rem;
   p {
     width: 30rem;
-    padding-top: 3rem;
+    // padding-top: 3rem;
     font-size: 1.3rem;
     text-align: justify;
+  }
+  @media (max-width: "630px") {
+    p {
+      width: 23rem;
+    }
   }
 }
 .imageContainer {
@@ -58,5 +63,18 @@
     &:hover {
       color: var(--accent);
     }
+  }
+}
+
+.textContent {
+  width: 23rem;
+  h2 {
+    border: 1px solid #eee;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
   }
 }

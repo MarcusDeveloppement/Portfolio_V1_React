@@ -15,10 +15,59 @@
 
 .buttonContainer {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 14px;
+  grid-row-gap: 7px;
+  align-items: center;
+  justify-items: center;
+  .h31,
+  .h32 {
+    grid-area: 1 / 1 / 2 / 3;
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: 600;
+    border: #ffffff 1px solid;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    @media (max-width: "765px") {
+      grid-area: 1 / 1 / 2 / 2;
+    }
+  }
+  .h32 {
+    grid-area: 5 / 3 / 6 / 5;
+    display: flex;
+    transition: background-color 0.5s ease;
+    p {
+      margin: 0;
+    }
+    &:hover {
+      color: var(--primary);
+      background-color: var(--secondary);
+      i {
+        margin-left: 1rem;
+        transition: margin-left 0.5s ease;
+      }
+    }
+    @media (max-width: "765px") {
+      grid-area: 10 / 1 / 11 / 2;
+    }
+  }
+
+  @media (max-width: "1250px") {
+    margin: 1rem;
+  }
+  @media (max-width: "765px") {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
 }
 .projectButton {
   border-radius: 15px;
@@ -34,14 +83,17 @@
   justify-content: center;
   background-position: center;
   background-size: cover;
-  filter: brightness(80%);
+  filter: brightness(85%);
+  height: 20rem;
+  width: 100%;
   p {
     color: #ffffff;
-    margin-top: 4.5rem;
-    font-size: 2rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    width: 80%;
-    background-color: black;
+    width: 100%;
+    display: flex;
+    text-shadow: rgb(0, 0, 0) 0px 0 10px;
   }
   &:hover {
     filter: brightness(100%);
@@ -51,30 +103,37 @@
   &.react {
     background-image: url(img/sportseeSite.webp);
     transition: transform 0.7s;
-    grid-area: 1 / 1 / 5 / 3;
-    height: 410px;
+    grid-area: 2 / 1 / 4 / 3;
     p {
-      margin-top: 10rem;
       filter: brightness(100%);
+    }
+    @media (max-width: "765px") {
+      grid-area: 2 / 1 / 4 / 2;
     }
   }
   &.php {
     background-image: url(img/blog1.webp);
     transition: transform 0.7s;
-    grid-area: 1 / 3 / 3 / 6;
-    height: 200px;
+    grid-area: 4 / 1 / 6 / 3;
+    @media (max-width: "765px") {
+      grid-area: 4 / 1 / 6 / 2;
+    }
   }
   &.js {
     background-image: url(img/plats1.webp);
     transition: transform 0.7s;
-    grid-area: 3 / 3 / 5 / 6;
-    height: 200px;
+    grid-area: 1 / 3 / 3 / 5;
+    @media (max-width: "765px") {
+      grid-area: 6 / 1 / 8 / 2;
+    }
   }
   &.symphony {
-    grid-area: 5 / 1 / 7 / 6;
+    grid-area: 3 / 3 / 5 / 5;
     background-image: url(img/UnderConstruction.jpg);
     transition: transform 0.7s;
-    height: 200px;
+    @media (max-width: "765px") {
+      grid-area: 8 / 1 / 10 / 2;
+    }
   }
 }
 
