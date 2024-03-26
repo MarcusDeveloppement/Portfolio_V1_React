@@ -3,8 +3,6 @@ import styles from "./Header.module.scss";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
-
-  // Fonction pour fermer le menu
   const handleCloseMenu = () => {
     setIsOpen(false);
   };

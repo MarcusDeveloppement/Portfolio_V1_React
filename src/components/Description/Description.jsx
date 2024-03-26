@@ -20,17 +20,23 @@ export default function Description() {
           </p>
           <div className={styles.wavylines}></div>
           <div className={styles.reseaux}>
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/marc-khamchanh-63aaa4b3/"
+              target="_blank"
+            >
               <i className="fa-brands fa-linkedin"></i>
             </a>
-            <a href="#">
+            <a href="https://twitter.com/Marcus_TechDev" target="_blank">
               <i className="fa-brands fa-twitter"></i>
             </a>
-            <a href="#">
+            <a href="#" target="_blank">
               <i className="fa-brands fa-instagram"></i>
             </a>
-            <a href="#">
-              <i class="fa-brands fa-github"></i>
+            <a
+              href="https://github.com/MarcusDeveloppement?tab=repositories"
+              target="_blank"
+            >
+              <i className="fa-brands fa-github"></i>
             </a>
           </div>
         </div>

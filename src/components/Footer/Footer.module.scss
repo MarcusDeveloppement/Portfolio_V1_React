@@ -3,7 +3,7 @@
   justify-content: center;
   padding: 0.5rem;
   font-weight: 300;
-  margin: 5rem 0;
+  margin: 8rem 0 4rem 0;
 
   p {
     background-color: var(--secondary);
@@ -11,7 +11,8 @@
   }
   @media (max-width: "425px") {
     p {
-      width: 10rem;
+      width: 19rem;
+      text-align: center;
     }
   }
 }

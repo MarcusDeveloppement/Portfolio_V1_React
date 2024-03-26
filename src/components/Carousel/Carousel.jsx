@@ -19,7 +19,7 @@ const Carousel = ({ images }) => {
   return (
     <div className={styles.carouselContainer}>
       <button onClick={goToPrevious} className={styles.carouselButton}>
-        <i class="fa-solid fa-chevron-left"></i>
+        <i className="fa-solid fa-chevron-left"></i>
       </button>
       <img
         src={images[currentIndex]}
@@ -27,7 +27,7 @@ const Carousel = ({ images }) => {
         className={styles.carouselImage}
       />
       <button onClick={goToNext} className={styles.carouselButton}>
-        <i class="fa-solid fa-chevron-right"></i>
+        <i className="fa-solid fa-chevron-right"></i>
       </button>
     </div>
   );

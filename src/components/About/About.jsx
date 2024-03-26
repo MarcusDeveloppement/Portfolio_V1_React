@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./About.module.scss";
-import imgMe from "../../assets/images/Moi.png";
+import imgMe from "../../assets/images/Moi.webp";
 export default function About() {
   return (
     <div className={styles.about_content} data-aos="fade-down">

@@ -71,7 +71,10 @@
   );
   border-radius: 50%;
   @media (max-width: "425px") {
-    left: 3%;
+    left: 2%;
+  }
+  @media (max-width: "375px") {
+    left: -4%;
   }
 }
 

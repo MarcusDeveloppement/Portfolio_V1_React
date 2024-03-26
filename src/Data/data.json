@@ -5,7 +5,7 @@
     "type": "react",
     "image": "img/sportseeSite.webp",
     "image2": "img/acceuil_sportsee.webp",
-    "paragraphe": "Ce projet permet de récupéré de information provenant d'une API externe et utilise recharts pour afficher des données graphique d'un utilisateur spécifique.  ",
+    "paragraphe": "Ce projet permet de récupéré de information provenant d'une API externe et utilise une bibliothèque nommé recharts afin d'afficher de mnière graphique des données d'un utilisateur spécifique.  ",
     "site": "#",
     "github": "https://github.com/MarcusDeveloppement/SportSee-Front-P12"
   },
@@ -26,16 +26,17 @@
     "type": "js",
     "image": "img/plats1.webp",
     "image2": "img/plats2.webp",
-    "paragraphe": "Ce projet permet de récupéré de information ",
+    "paragraphe": "Ce projet permet de récupéré de trier, ajouter des tags et de rechercher des recettes dans une application ",
     "site": "#",
-    "github": "#"
+    "github": "https://github.com/MarcusDeveloppement/Les-Petits-Plats"
   },
   {
     "id": 4,
-    "titre": "Projet Symphony",
+    "titre": "Projet React: Wealth Healph",
     "type": "symphony",
-    "image": "img/UnderConstruction.jpg",
-    "paragraphe": "Projet en cours .... retrouver d'autres projet directement depuis mon profil github ;)",
+    "image": "img/WealthHealth1.webp",
+    "image2": "img/WealthHealth2.webp",
+    "paragraphe": "Le projet permet de stocker les données de manière locale suite au remplissage du formulaire via la gestion de différents états centralisé dans l'application ainsi que la création d'un package rendu publique pouvant être utilisé par une personne tièrce",
     "site": "#",
     "github": "#"
   }

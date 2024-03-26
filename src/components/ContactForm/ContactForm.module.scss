@@ -38,9 +38,10 @@
   width: 100%;
   input {
     border-radius: 5px;
+    font-size: 1.2rem;
     border: none;
     font-style: var(--font-family);
-    height: 1.5rem;
+    height: 2.2rem;
     font-weight: 600;
   }
   label {
@@ -52,17 +53,18 @@
     padding: 10px;
     font-style: "roboto";
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
 .formContainer {
   h2 {
     text-shadow: none;
-    margin-bottom: 1.8rem;
+    margin-bottom: 2rem;
     justify-content: center;
     align-items: center;
     display: flex;
+    font-size: 3rem;
   }
   border: 1px solid grey;
   width: 70%;
