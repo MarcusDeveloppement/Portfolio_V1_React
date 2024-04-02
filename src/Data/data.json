@@ -5,7 +5,7 @@
     "type": "react",
     "image": "img/sportseeSite.webp",
     "image2": "img/acceuil_sportsee.webp",
-    "paragraphe": "Ce projet permet de récupéré de information provenant d'une API externe et utilise une bibliothèque nommé recharts afin d'afficher de mnière graphique des données d'un utilisateur spécifique. Attention : ce projet n'est pas responsive, visualiser le sur un ordinateur. ",
+    "paragraphe": "Ce projet permet de récupérer des informations provenant d'une API externe et utilise une bibliothèque nommée Recharts pour afficher de manière graphique les données d'un utilisateur spécifique. Attention : ce projet n'est pas responsive. Il est recommandé de le visualiser sur un ordinateur.",
     "site": "https://sport-see.web.app/",
     "github": "https://github.com/MarcusDeveloppement/SportSee-Front-P12"
   },
@@ -16,7 +16,7 @@
     "image": "img/blog1.webp",
     "image2": "img/blog2.webp",
     "image3": "img/blog3.webp",
-    "paragraphe": "Ce projet permet d'appliquer la méthode CRUD en utilisant PDO pour la relation entre la partie serveur avec mysql et la partie front **Site web non déployé",
+    "paragraphe": "Ce projet met en œuvre la méthode CRUD en utilisant PDO, facilitant ainsi la communication entre le serveur MySQL et le front-end. **Note : le site web n'est pas encore déployé.",
     "github": "https://github.com/MarcusDeveloppement/Blog_PHP"
   },
   {
@@ -25,7 +25,7 @@
     "type": "js",
     "image": "img/plats1.webp",
     "image2": "img/plats2.webp",
-    "paragraphe": "Ce projet permet de récupéré de trier, ajouter des tags et de rechercher des recettes dans une application. Attention ce projet n'est pas responsive, a visualiser sur ordinateur. ",
+    "paragraphe": "Ce projet permet de récupérer et de trier des recettes, d'ajouter des tags, ainsi que de rechercher des recettes dans une application. Attention, ce projet n'est pas conçu pour être responsive ; il est préférable de le visualiser sur un ordinateur.",
     "site": "https://les-petits-plats-marckhamchanh.surge.sh/",
     "github": "https://github.com/MarcusDeveloppement/Les-Petits-Plats"
   },
@@ -35,7 +35,7 @@
     "type": "symphony",
     "image": "img/WealthHealth1.webp",
     "image2": "img/WealthHealth2.webp",
-    "paragraphe": "Le projet permet de stocker les données de manière locale suite au remplissage du formulaire via la gestion de différents états centralisé dans l'application ainsi que la création d'un package rendu publique pouvant être utilisé par une personne tièrce",
+    "paragraphe": "Le projet permet de stocker les données localement suite au remplissage d'un formulaire, grâce à la gestion de différents états centralisés dans l'application, ainsi qu'à la création d'un package rendu public, pouvant être utilisé par une tierce personne",
     "site": "https://wealth-health-mk.web.app",
     "github": "https://github.com/MarcusDeveloppement/WeathHealth_P-14OC"
   }

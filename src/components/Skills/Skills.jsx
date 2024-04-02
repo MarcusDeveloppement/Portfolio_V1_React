@@ -19,10 +19,9 @@ export default function Skills() {
                     <i className="fa-brands fa-react"></i> React JS
                   </h4>
                   <p>
-                    J'ai déjà réalisé plusieurs projets en utilisant le
-                    framework React, et j'ai intégré diverses bibliothèques,
-                    telles que Redux, pour la gestion des états au sein des
-                    applications.
+                    J'ai réalisé plusieurs projets en utilisant le framework
+                    React, intégrant diverses bibliothèques, telles que Redux,
+                    pour la gestion des états dans les applications.
                   </p>
                 </div>
                 <div className={styles.card}>
@@ -31,9 +30,9 @@ export default function Skills() {
                     <i className="fa-brands fa-sass"></i>Sass
                   </h4>
                   <p>
-                    J'utilise Sass en raison de sa facilité de maintenance et
-                    parce que c'est un préprocesseur CSS qui simplifie
-                    grandement l'organisation des feuilles de style.
+                    J'utilise Sass pour sa facilité de maintenance et parce
+                    qu'il s'agit d'un préprocesseur CSS qui simplifie
+                    considérablement l'organisation des feuilles de style.
                   </p>
                 </div>
                 <div className={styles.card}>

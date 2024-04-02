@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./About.module.scss";
 import imgMe from "../../assets/images/Moi.webp";
+import CV from "../../assets/images/CV.pdf";
 export default function About() {
   return (
     <div className={styles.about_content} data-aos="fade-down">
@@ -12,7 +13,16 @@ export default function About() {
         </div>
         <div className={styles.btn}>
           <button>Contactez-moi</button>
-          <button>Mon CV</button>
+          <button>
+            {" "}
+            <a
+              href={CV}
+              download="CV_MarcKhamchanh.pdf"
+              className={styles.buttona}
+            >
+              Télécharger CV
+            </a>
+          </button>
         </div>
       </div>
       <div className={styles.containerImg}>

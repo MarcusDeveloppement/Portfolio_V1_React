@@ -78,6 +78,13 @@
   }
 }
 
+.buttona {
+  color: inherit;
+  &:hover {
+    color: inherit !important;
+  }
+}
+
 .fade {
   position: absolute;
   z-index: 3;
