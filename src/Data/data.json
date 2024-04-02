@@ -5,8 +5,8 @@
     "type": "react",
     "image": "img/sportseeSite.webp",
     "image2": "img/acceuil_sportsee.webp",
-    "paragraphe": "Ce projet permet de récupéré de information provenant d'une API externe et utilise une bibliothèque nommé recharts afin d'afficher de mnière graphique des données d'un utilisateur spécifique.  ",
-    "site": "#",
+    "paragraphe": "Ce projet permet de récupéré de information provenant d'une API externe et utilise une bibliothèque nommé recharts afin d'afficher de mnière graphique des données d'un utilisateur spécifique. Attention : ce projet n'est pas responsive, visualiser le sur un ordinateur. ",
+    "site": "https://sport-see.web.app/",
     "github": "https://github.com/MarcusDeveloppement/SportSee-Front-P12"
   },
   {
@@ -16,8 +16,7 @@
     "image": "img/blog1.webp",
     "image2": "img/blog2.webp",
     "image3": "img/blog3.webp",
-    "paragraphe": "Ce projet permet d'appliquer la méthode CRUD en utilisant PDO pour la relation entre la partie serveur avec mysql et la partie front ",
-    "site": "#",
+    "paragraphe": "Ce projet permet d'appliquer la méthode CRUD en utilisant PDO pour la relation entre la partie serveur avec mysql et la partie front **Site web non déployé",
     "github": "https://github.com/MarcusDeveloppement/Blog_PHP"
   },
   {
@@ -26,18 +25,18 @@
     "type": "js",
     "image": "img/plats1.webp",
     "image2": "img/plats2.webp",
-    "paragraphe": "Ce projet permet de récupéré de trier, ajouter des tags et de rechercher des recettes dans une application ",
-    "site": "#",
+    "paragraphe": "Ce projet permet de récupéré de trier, ajouter des tags et de rechercher des recettes dans une application. Attention ce projet n'est pas responsive, a visualiser sur ordinateur. ",
+    "site": "https://les-petits-plats-marckhamchanh.surge.sh/",
     "github": "https://github.com/MarcusDeveloppement/Les-Petits-Plats"
   },
   {
     "id": 4,
-    "titre": "Projet React: Wealth Healph",
+    "titre": "Projet React: Wealth Health",
     "type": "symphony",
     "image": "img/WealthHealth1.webp",
     "image2": "img/WealthHealth2.webp",
     "paragraphe": "Le projet permet de stocker les données de manière locale suite au remplissage du formulaire via la gestion de différents états centralisé dans l'application ainsi que la création d'un package rendu publique pouvant être utilisé par une personne tièrce",
-    "site": "#",
-    "github": "#"
+    "site": "https://wealth-health-mk.web.app",
+    "github": "https://github.com/MarcusDeveloppement/WeathHealth_P-14OC"
   }
 ]

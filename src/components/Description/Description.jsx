@@ -29,7 +29,7 @@ export default function Description() {
             <a href="https://twitter.com/Marcus_TechDev" target="_blank">
               <i className="fa-brands fa-twitter"></i>
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.instagram.com/marcus_techdev/" target="_blank">
               <i className="fa-brands fa-instagram"></i>
             </a>
             <a

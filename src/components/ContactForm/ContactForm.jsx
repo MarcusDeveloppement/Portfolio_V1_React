@@ -11,14 +11,11 @@ const ContactForm = () => {
       message: "",
     },
     onSubmit: (values, { resetForm }) => {
-      // Préparation des données à envoyer
       const templateParams = {
         from_name: values.name,
         reply_to: values.email,
         message: values.message,
       };
-
-      // Envoi de l'email
       emailjs
         .send(
           "service_m5ue83e",
