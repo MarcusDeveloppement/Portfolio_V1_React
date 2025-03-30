@@ -1,4 +1,3 @@
-// En haut de votre fichier Modale.js
 import styles from "./Modale.module.scss";
 import React from "react";
 

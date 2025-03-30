@@ -11,12 +11,11 @@ export default function Description() {
         <div className={styles.textContent}>
           <h2>À PROPOS</h2>
           <p>
-            Passionné par le monde du web depuis toujours, j'ai récemment pris
+            Passionné par le monde de l'IT depuis toujours, j'ai récemment pris
             la décision de changer de voie pour poursuivre ma passion. Mon
-            parcours m'a conduit à explorer en profondeur le domaine du
-            développement web. En parallèle de mes engagements professionnels,
-            j'ai investi temps et énergie pour obtenir des certifications dans
-            ce domaine, preuve de mon engagement et de ma détermination.
+            parcours m'a conduit à explorer le domaine du développement
+            informatique et c'est en allant plus loin dans mes recherche que
+            j'ai découvert le réseau et l'administration système.
           </p>
           <div className={styles.wavylines}></div>
           <div className={styles.reseaux}>

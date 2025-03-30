@@ -51,6 +51,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-left: 3.5rem;
   .threeCard {
     display: flex;
     gap: 15px;
@@ -64,7 +65,10 @@
     }
   }
 }
-
+.titlePrinc {
+  margin-left: 3.5rem;
+  padding: 1.5rem;
+}
 .content {
   display: flex;
   align-items: flex-end;
@@ -83,7 +87,7 @@
   border: 1px solid white;
   align-items: center;
   justify-content: center;
-  width: 46.5rem;
+  width: 29.5rem;
   height: 7rem;
   position: absolute;
   left: 0;
