@@ -33,8 +33,9 @@ export default function Skills() {
         {/* Flèche Précédente */}
         {skillIndex > 0 && (
           <div className={styles.arrowLeft} onClick={goPrevious}>
-            <div className={styles.arrowStyle}>
+            <div className={styles.arrowStyle2}>
               <i className="fa-solid fa-arrow-left"></i>
+              <p>Back</p>
             </div>
           </div>
         )}
@@ -43,6 +44,7 @@ export default function Skills() {
         {skillIndex < skillsComponents.length - 1 && (
           <div className={styles.arrowRight} onClick={goNext}>
             <div className={styles.arrowStyle}>
+              <p>Next</p>
               <i className=" fa-solid fa-arrow-right"></i>
             </div>
           </div>

@@ -1,7 +1,7 @@
 .card {
   width: 15rem;
   border: solid 1px var(--primary);
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 1rem;
   flex-direction: column;
   display: flex;
@@ -10,7 +10,7 @@
     text-align: justify;
   }
   h4 {
-    color: var(--primary);
+    color: var(--accent);
     display: flex;
     align-items: center;
     font-size: 1.2rem;
@@ -116,13 +116,26 @@
     align-items: center;
   }
 }
-.arrowStyle {
+.arrowStyle,
+.arrowStyle2 {
   font-size: 2rem;
   margin-top: 1rem;
-  color: var(--accent);
+  color: var(--primary);
   cursor: pointer;
-  transition: color 0.5s ease;
+  transition: color 0.5s ease, margin-left 0.5s ease, margin-right 0.5s ease; // Transition pour la couleur et les marges
+  display: flex;
+  align-items: center;
+  p {
+    padding: 0rem 0.8rem;
+    margin: 0;
+  }
 }
+
 .arrowStyle:hover {
   color: var(--secondary);
+  margin-left: 1rem;
+}
+.arrowStyle2:hover {
+  color: var(--secondary);
+  margin-right: 1rem;
 }
