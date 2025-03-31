@@ -1,3 +1,6 @@
+.describe {
+  margin-bottom: 0rem;
+}
 .describeContainer {
   display: flex;
   flex-wrap: wrap;
@@ -31,7 +34,9 @@
   @media (max-width: "425px") {
     img {
       width: 95%;
+      margin-bottom: 2rem;
     }
+    display: contents;
   }
 }
 
@@ -44,6 +49,9 @@
   bottom: 0;
   background: radial-gradient(circle, transparent 70%, var(--background) 70%);
   opacity: 1;
+  @media (max-width: 425px) {
+    position: relative;
+  }
 }
 
 @keyframes wave-animation {
