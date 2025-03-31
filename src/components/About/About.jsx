@@ -5,7 +5,10 @@ import CV from "../../assets/images/CV.pdf";
 
 export default function About() {
   return (
-    <div className={styles.about_content} data-aos="fade-down">
+    <div
+      className={`${styles.about_content} ${styles.containAbout}`}
+      data-aos="fade-down"
+    >
       <div className={styles.nameContent}>
         <div className={styles.name}>
           <h1>Marc</h1>
@@ -30,9 +33,7 @@ export default function About() {
         </div>
       </div>
       <div className={styles.containerImg}>
-        <div className={styles.circle}></div>
         <img className={styles.picture} src={imgMe} alt="photo de profile" />
-        <div className={styles.fade}></div>
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
 .picture {
-  height: 25rem;
-  object-fit: contain;
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
 }
 .nameContent {
   display: flex;
@@ -29,7 +31,7 @@
   h2 {
     margin-bottom: 1.8rem;
     color: var(--accent);
-    font-weight: 400;
+    font-weight: 500;
   }
 }
 
@@ -63,26 +65,6 @@
   }
 }
 
-.circle {
-  position: absolute;
-  z-index: 0;
-  left: 14%;
-  width: 380px;
-  height: 380px;
-  background-image: radial-gradient(
-    circle,
-    var(--secondary) 30%,
-    transparent 70%
-  );
-  border-radius: 50%;
-  @media (max-width: "425px") {
-    left: 2%;
-  }
-  @media (max-width: "375px") {
-    left: -4%;
-  }
-}
-
 .buttona {
   color: inherit;
   &:hover {
@@ -90,16 +72,6 @@
   }
 }
 
-.fade {
-  position: absolute;
-  z-index: 3;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100px;
-  background: linear-gradient(
-    to top,
-    var(--background),
-    rgba(206, 206, 206, 0)
-  );
+.containAbout {
+  gap: 8rem;
 }
