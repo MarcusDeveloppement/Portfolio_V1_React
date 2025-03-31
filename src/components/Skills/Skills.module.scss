@@ -59,6 +59,7 @@
     flex-wrap: wrap;
   }
   @media (max-width: "425px") {
+    margin-left: 0;
     align-items: center;
     h3 {
       margin-bottom: 1rem;
@@ -68,6 +69,11 @@
 .titlePrinc {
   margin-left: 3.5rem;
   padding: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--accent);
+  @media (max-width: 425px) {
+    margin-left: 0;
+  }
 }
 .content {
   display: flex;
@@ -84,7 +90,7 @@
   transform: rotate(-90deg);
   transform-origin: left top;
   display: flex;
-  border: 1px solid white;
+  border: 1px solid var(--secondary);
   align-items: center;
   justify-content: center;
   width: 29.5rem;
@@ -109,4 +115,14 @@
     display: flex;
     align-items: center;
   }
+}
+.arrowStyle {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: var(--accent);
+  cursor: pointer;
+  transition: color 0.5s ease;
+}
+.arrowStyle:hover {
+  color: var(--secondary);
 }

@@ -4,9 +4,8 @@ import styles from "../Skills/Skills.module.scss";
 function AdminSkills() {
   return (
     <div className={styles.globalCard}>
-      <h3 className={styles.titlePrinc}>Administration</h3>
+      <h3 className={styles.titlePrinc}>Systemes & reseaux</h3>
       <div className={styles.threeCard}>
-        {/* Compétence en administration de réseau */}
         <div className={styles.card}>
           <h4>
             <i className="fa-solid fa-network-wired"></i> Network Administration

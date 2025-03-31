@@ -32,10 +32,10 @@
   .h31,
   .h32 {
     grid-area: 1 / 1 / 2 / 3;
-    color: #ffffff;
+    color: var(--secondary);
     font-size: 3.5rem;
     font-weight: 800;
-    border: #ffffff 1px solid;
+    border: 1px solid var(--secondary);
     height: 100%;
     width: 100%;
     display: flex;

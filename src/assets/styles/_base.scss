@@ -43,7 +43,7 @@ a {
 
 h2 {
   font-size: 1.8rem;
-  color: #eee;
+  color: var(--secondary);
   margin-bottom: 4rem;
   font-weight: 800;
 }
@@ -53,15 +53,15 @@ button {
   background-color: var(--primary);
   border: none;
   border-radius: 3px;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   padding: 0.4rem 0.6rem;
   border: 1px solid var(--secondary);
   transition: box-shadow 0.3s ease;
   cursor: pointer;
   &:hover {
-    background-color: var(--accent);
-    color: var(--text-color);
+    background-color: var(--secondary);
+    color: var(--background);
     box-shadow: 5px 5px var(--primary);
   }
 }

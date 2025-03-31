@@ -82,6 +82,8 @@
   width: 3rem;
   height: 100%;
   justify-content: center;
+  color: var(--secondary);
+  font-weight: 800;
 }
 
 .hamburger {
@@ -94,7 +96,7 @@
   transform: translateY(-50%);
   background: none;
   border: none;
-  color: #fff;
+  color: var(--accent);
 
   &:focus {
     outline: none;

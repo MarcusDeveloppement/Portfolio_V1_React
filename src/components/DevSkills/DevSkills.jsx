@@ -4,7 +4,7 @@ import styles from "../Skills/Skills.module.scss";
 function DevSkills() {
   return (
     <div className={styles.globalCard}>
-      <h3 className={styles.titlePrinc}>DEV SKILLS</h3>
+      <h3 className={styles.titlePrinc}>Developpement Web</h3>
       <div className={styles.threeCard}>
         <div className={styles.card}>
           <h4>

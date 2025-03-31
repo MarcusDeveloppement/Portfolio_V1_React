@@ -33,14 +33,18 @@ export default function Skills() {
         {/* Flèche Précédente */}
         {skillIndex > 0 && (
           <div className={styles.arrowLeft} onClick={goPrevious}>
-            <i className="fa-solid fa-arrow-left"></i>
+            <div className={styles.arrowStyle}>
+              <i className="fa-solid fa-arrow-left"></i>
+            </div>
           </div>
         )}
 
         {/* Flèche Suivante */}
         {skillIndex < skillsComponents.length - 1 && (
           <div className={styles.arrowRight} onClick={goNext}>
-            <i className="fa-solid fa-arrow-right"></i>
+            <div className={styles.arrowStyle}>
+              <i className=" fa-solid fa-arrow-right"></i>
+            </div>
           </div>
         )}
       </div>

@@ -37,12 +37,15 @@
   gap: 8px;
   width: 100%;
   input {
+    border: 1px solid var(--text-color) !important;
     border-radius: 5px;
     font-size: 1.2rem;
-    border: none;
     font-style: var(--font-family);
     height: 2.2rem;
     font-weight: 600;
+    @media (max-width: 850px) and (min-width: 650px) {
+      width: 100%;
+    }
   }
   label {
     font-size: 1.1rem;

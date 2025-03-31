@@ -10,7 +10,7 @@ export default function About() {
         <div className={styles.name}>
           <h1>Marc</h1>
           <h2>KHAMCHANH</h2>
-          <p>Technicien Administration</p>
+          <p>Administrateur Infrastructures Sécurisées</p>
         </div>
         <div className={styles.btn}>
           <button>
