@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Header.module.scss";
+import logo from "../../assets/images/fusee.webp";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,9 @@ export default function Header() {
 
   return (
     <div className={styles.header}>
-      <div className={styles.logo}>MK</div>
+      <div className={styles.logo}>
+        <img src={logo} alt="logo" />
+      </div>
       <button className={styles.hamburger} onClick={() => setIsOpen(!isOpen)}>
         ☰
       </button>

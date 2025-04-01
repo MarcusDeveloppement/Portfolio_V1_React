@@ -85,6 +85,10 @@
   justify-content: center;
   color: var(--secondary);
   font-weight: 800;
+  margin-left: 1.5rem;
+  @media (max-width: 840px) {
+    height: 4rem;
+  }
 }
 
 .hamburger {
