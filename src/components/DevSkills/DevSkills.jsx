@@ -11,9 +11,9 @@ function DevSkills() {
             <i className="fa-brands fa-python"></i> Python
           </h4>
           <p>
-            J'utilise Sass pour sa facilité de maintenance et parce qu'il s'agit
-            d'un préprocesseur CSS qui simplifie considérablement l'organisation
-            des feuilles de style.
+            J'ai utilisé Python dans un contexte professionnel pour le
+            développement web en employant le framework Flask. J'emploie
+            également Python pour automatiser certains scripts.
           </p>
         </div>
         <div className={styles.card}>
@@ -21,9 +21,9 @@ function DevSkills() {
             <i className="fa-brands fa-java"></i> Java
           </h4>
           <p>
-            J'utilise Sass pour sa facilité de maintenance et parce qu'il s'agit
-            d'un préprocesseur CSS qui simplifie considérablement l'organisation
-            des feuilles de style.
+            J'ai employé Java en combinaison avec Angular pour le développement
+            full-stack, en utilisant PlayFramework dans un contexte
+            professionnel
           </p>
         </div>
         <div className={styles.card}>
@@ -41,9 +41,8 @@ function DevSkills() {
             <i className="fa-brands fa-angular"></i> Angular
           </h4>
           <p>
-            J'ai eu l'occasion d'utiliser Angular lors de projets précédents,
-            appréciant sa puissance pour les applications complexes côté
-            front-end.
+            J'ai utilisé Angular dans des projets professionnels pour développer
+            des applications front-end complexe
           </p>
         </div>
         <div className={styles.card}>
@@ -51,9 +50,8 @@ function DevSkills() {
             <i className="fa-solid fa-database"></i> SQL
           </h4>
           <p>
-            J'utilise Sass pour sa facilité de maintenance et parce qu'il s'agit
-            d'un préprocesseur CSS qui simplifie considérablement l'organisation
-            des feuilles de style.
+            J'ai utilisé SQL, en particulier PostgreSQL, pour gérer efficacement
+            les bases de données dans des projets full-stack.
           </p>
         </div>
         <div className={styles.card}>
@@ -61,9 +59,9 @@ function DevSkills() {
             <i className="fa-brands fa-git-alt"></i> Git
           </h4>
           <p>
-            J'utilise Sass pour sa facilité de maintenance et parce qu'il s'agit
-            d'un préprocesseur CSS qui simplifie considérablement l'organisation
-            des feuilles de style.
+            Dans tous mes environnements de développement, j'utilise GIT pour la
+            gestion de versions. Professionnellement, je me sers de GitLab, et
+            pour mes projets personnels, j'opte pour GitHub.
           </p>
         </div>
       </div>

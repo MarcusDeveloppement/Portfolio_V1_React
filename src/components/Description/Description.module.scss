@@ -35,6 +35,7 @@
     img {
       width: 95%;
       margin-bottom: 2rem;
+      height: auto;
     }
     display: contents;
   }
@@ -96,7 +97,7 @@
     margin-bottom: 2rem;
   }
   @media (max-width: "850px") {
-    width: 23rem;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
