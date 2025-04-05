@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import data from "../../Data/data.json";
+import React, { useState, useEffect } from "react";
+import initialData from "../../Data/data.json";
+import infraData from "../../Data/data-infra.json";
 import styles from "./Projects.module.scss";
 import Modale from "../Modale/Modale";
 import Carousel from "../Carousel/Carousel";
@@ -7,12 +8,26 @@ import Carousel from "../Carousel/Carousel";
 export default function Projects() {
   const [projetActuel, setProjetActuel] = useState(null);
   const [modaleOuverte, setModaleOuverte] = useState(false);
-  console.log(projetActuel);
+  const [data, setData] = useState(initialData);
+  const [isInitial, setIsInitial] = useState(true);
+
+  useEffect(() => {
+    console.log(projetActuel);
+  }, [projetActuel]);
 
   const ouvrirModale = (id) => {
     const projetTrouve = data.find((projet) => projet.id === id);
     setProjetActuel(projetTrouve);
     setModaleOuverte(true);
+  };
+
+  const toggleData = () => {
+    if (isInitial) {
+      setData(infraData);
+    } else {
+      setData(initialData);
+    }
+    setIsInitial(!isInitial);
   };
 
   return (
@@ -32,15 +47,12 @@ export default function Projects() {
             <p>{projet.titre}</p>
           </button>
         ))}
-        <a
-          className={styles.h32}
-          href="https://github.com/MarcusDeveloppement?tab=repositories"
-          target="_blank"
-        >
+        <button className={styles.h32} onClick={toggleData}>
           <p>
-            VOIR PLUS <i className="fa-regular fa-hand-point-right"></i>
+            {isInitial ? "PROJET SYSTÈME & RÉSEAU" : "PROJETS DEV"}
+            <i className="fa-regular fa-hand-point-right"></i>
           </p>
-        </a>
+        </button>
       </div>
 
       <Modale ouverte={modaleOuverte} fermer={() => setModaleOuverte(false)}>
@@ -56,7 +68,6 @@ export default function Projects() {
             />
             <p>{projetActuel.paragraphe}</p>
             <div className={styles.navlink}>
-              {" "}
               <a
                 href={projetActuel.site}
                 target="_blank"
