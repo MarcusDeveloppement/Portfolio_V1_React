@@ -1,19 +1,18 @@
 [
   {
     "id": 5,
-    "titre": "Projet Infrastructure: Serveur Cloud",
-    "type": "cloud",
-    "image": "img/cloudSetup.webp",
-    "image2": "img/cloudNetworking.webp",
-    "paragraphe": "Mise en place d'une infrastructure de serveur cloud pour une meilleure scalabilité et gestion des ressources d'entreprise. Ce projet comprend la configuration de serveurs virtuels, la sécurisation des connexions et la mise en œuvre de solutions de reprise après sinistre.",
-    "site": "https://cloud-server-setup.example.com",
+    "titre": "Projet Réseau: Implémentation du Routage Statique",
+    "type": "routage",
+    "image": "img/routage.webp",
+    "videoUrl": "videos/test_ping.mp4",
+    "paragraphe": "Suite à une surcharge générale, tous les routeurs du réseau ont perdu leurs configurations. La tâche consistait à redémarrer et reconfigurer les interfaces réseau et les tables de routage de chaque routeur. Réinitialisation et reconfiguration des interfaces des routeurs dans les villes, mise en place d'un routage statique et Tests de connectivité ",
     "github": "https://github.com/MarcusDeveloppement/CloudServerSetup",
-    "description": "Conception et déploiement d'une infrastructure cloud avec AWS pour gérer les pics de charge sans compromettre la performance."
+    "description": "Réinitialisation et reconfiguration des interfaces des routeurs dans les villes, mise en place d'un routage statique et Tests de connectivité "
   },
   {
     "id": 6,
-    "titre": "Projet Réseau: Optimisation WAN",
-    "type": "network",
+    "titre": "Projet Windows server: L'active directory avec GLPO",
+    "type": "glpo",
     "image": "img/Linux.webp",
     "image2": "img/networkDesign.webp",
     "paragraphe": "Projet d'optimisation de réseau étendu (WAN) qui se concentre sur la réduction de la latence, l'amélioration de la bande passante et la garantie de la haute disponibilité des connexions entre les sites distants.",

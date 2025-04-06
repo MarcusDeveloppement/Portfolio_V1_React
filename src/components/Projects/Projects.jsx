@@ -17,16 +17,22 @@ export default function Projects() {
 
   const ouvrirModale = (id) => {
     const projetTrouve = data.find((projet) => projet.id === id);
-    setProjetActuel(projetTrouve);
+    if (projetTrouve) {
+      setProjetActuel({
+        ...projetTrouve,
+        images: [
+          { url: projetTrouve.image, type: "image" },
+          { url: projetTrouve.image2, type: "image" },
+          { url: projetTrouve.image3, type: "image" },
+          { url: projetTrouve.videoUrl, type: "video" },
+        ].filter((item) => item && item.url), // Assure que seuls les éléments valides sont inclus
+      });
+    }
     setModaleOuverte(true);
   };
 
   const toggleData = () => {
-    if (isInitial) {
-      setData(infraData);
-    } else {
-      setData(initialData);
-    }
+    setData(isInitial ? infraData : initialData);
     setIsInitial(!isInitial);
   };
 
@@ -59,30 +65,34 @@ export default function Projects() {
         {projetActuel && (
           <div className={styles.modalContent}>
             <h2>{projetActuel.titre}</h2>
-            <Carousel
-              images={[
-                projetActuel.image,
-                projetActuel.image2,
-                projetActuel.image3,
-              ].filter(Boolean)}
-            />
-            <p>{projetActuel.paragraphe}</p>
+            {projetActuel.images && projetActuel.images.length > 0 && (
+              <Carousel images={projetActuel.images} />
+            )}
+            {projetActuel.paragraphe &&
+              projetActuel.images &&
+              projetActuel.images.length > 0 && (
+                <p>{projetActuel.paragraphe}</p>
+              )}
             <div className={styles.navlink}>
-              <a
-                href={projetActuel.site}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Site du projet
-              </a>
-              <a
-                href={projetActuel.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ marginLeft: "10px" }}
-              >
-                GitHub
-              </a>
+              {projetActuel.site && (
+                <a
+                  href={projetActuel.site}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Site du projet
+                </a>
+              )}
+              {projetActuel.github && (
+                <a
+                  href={projetActuel.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ marginLeft: "10px" }}
+                >
+                  GitHub
+                </a>
+              )}
             </div>
           </div>
         )}

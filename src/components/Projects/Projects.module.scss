@@ -153,16 +153,16 @@
       grid-area: 4 / 1 / 6 / 2;
     }
   }
-  &.cloud {
+  &.routage {
     grid-area: 1 / 3 / 3 / 5;
-    background-image: url(/img/cloudSetup.webp);
+    background-image: url(/img/static.webp);
     transition: transform 0.7s;
     @media (max-width: "765px") {
       grid-area: 6 / 1 / 8 / 2;
     }
   }
-  &.network {
-    background-image: url(/img/réseau.webp);
+  &.glpo {
+    background-image: url(/img/glpo.webp);
     transition: transform 0.7s;
     grid-area: 2 / 1 / 4 / 3;
     p {
