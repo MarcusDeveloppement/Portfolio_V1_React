@@ -161,8 +161,8 @@
       grid-area: 6 / 1 / 8 / 2;
     }
   }
-  &.glpo {
-    background-image: url(/img/glpo.webp);
+  &.agdlp {
+    background-image: url(/img/agdlp.webp);
     transition: transform 0.7s;
     grid-area: 2 / 1 / 4 / 3;
     p {
@@ -172,7 +172,7 @@
       grid-area: 2 / 1 / 4 / 2;
     }
   }
-  &.security {
+  &.linux {
     background-image: url(/img/linux.webp);
     transition: transform 0.7s;
     grid-area: 3 / 3 / 5 / 5;
@@ -183,8 +183,8 @@
       grid-area: 8 / 1 /10 / 2;
     }
   }
-  &.packet {
-    background-image: url(/img/packet.webp);
+  &.firewall {
+    background-image: url(/img/firewall.webp);
     transition: transform 0.7s;
     grid-area: 4 / 1 / 6 / 3;
     p {

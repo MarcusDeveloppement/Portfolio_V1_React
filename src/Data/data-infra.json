@@ -1,7 +1,7 @@
 [
   {
     "id": 5,
-    "titre": "Projet Réseau: Implémentation du Routage Statique",
+    "titre": "Projet Réseau: Implémentation d'un Routage Statique",
     "type": "routage",
     "image": "img/routage.webp",
     "videoUrl": "videos/test_ping.mp4",
@@ -11,34 +11,31 @@
   },
   {
     "id": 6,
-    "titre": "Projet Windows server: L'active directory avec GLPO",
-    "type": "glpo",
+    "titre": "Projet Windows server: L'active directory avec l'AGDLP",
+    "type": "agdlp",
     "image": "img/Linux.webp",
     "image2": "img/networkDesign.webp",
-    "paragraphe": "Projet d'optimisation de réseau étendu (WAN) qui se concentre sur la réduction de la latence, l'amélioration de la bande passante et la garantie de la haute disponibilité des connexions entre les sites distants.",
-    "site": "https://wan-optimization.example.com",
+    "paragraphe": "porojet de mise en place d'une gestion des droits d'accès structurée avec l'AGLPD (Accounts, Global groups, Domain local groups, Permissions) pour les quatre principaux départements de l'entreprise : Comptabilité, Direction, Achat et Tech. Avec la création de Groupes Globaux et de Domaine Locaux, l'association des groupes et l'attributions des permissions",
     "github": "https://github.com/MarcusDeveloppement/WANOptimization",
-    "description": "Amélioration des performances réseau à travers des technologies avancées de compression de données et de mise en cache."
+    "description": "Mise en place de l'AGLPD pour renforcer la sécurité et simplifier la gestion des droits d'accès dans les systèmes informatiques."
   },
   {
     "id": 7,
-    "titre": "Projet Sécurité: Firewall Next-Gen",
-    "type": "security",
+    "titre": "Projet Linux: Script d'automatisation de sauvegarde",
+    "type": "linux",
     "image": "img/réseau.webp",
     "image2": "img/securityMonitoring.webp",
-    "paragraphe": "Implémentation d'un firewall de nouvelle génération avec des capacités de prévention des intrusions, gestion des applications et filtrage de contenu pour sécuriser le réseau d'entreprise.",
-    "site": "https://nextgen-firewall.example.com",
+    "paragraphe": "Automatisation de sauvegarde via un script écrit en python qui permet d'eviter la pertes de données en cas de coupure de courant ou problème logiciel",
     "github": "https://github.com/MarcusDeveloppement/NextGenFirewall",
     "description": "Déploiement d'une solution de sécurité complète pour protéger les infrastructures critiques contre les menaces modernes."
   },
   {
     "id": 8,
-    "titre": "Projet réseau: Architecture compréhension",
-    "type": "packet",
+    "titre": "Projet réseau: Renforcement de la Sécurité Réseau avec un Firewall",
+    "type": "firewall",
     "image": "img/packet.webp",
     "image2": "img/securityMonitoring.webp",
     "paragraphe": "Implémentation d'un firewall de nouvelle génération avec des capacités de prévention des intrusions, gestion des applications et filtrage de contenu pour sécuriser le réseau d'entreprise.",
-    "site": "https://nextgen-firewall.example.com",
     "github": "https://github.com/MarcusDeveloppement/NextGenFirewall",
     "description": "Déploiement d'une solution de sécurité complète pour protéger les infrastructures critiques contre les menaces modernes."
   }

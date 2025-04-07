@@ -8,8 +8,8 @@ import Carousel from "../Carousel/Carousel";
 export default function Projects() {
   const [projetActuel, setProjetActuel] = useState(null);
   const [modaleOuverte, setModaleOuverte] = useState(false);
-  const [data, setData] = useState(initialData);
-  const [isInitial, setIsInitial] = useState(true);
+  const [data, setData] = useState(infraData);
+  const [isInitial, setIsInitial] = useState(false);
 
   useEffect(() => {
     console.log(projetActuel);
@@ -25,7 +25,7 @@ export default function Projects() {
           { url: projetTrouve.image2, type: "image" },
           { url: projetTrouve.image3, type: "image" },
           { url: projetTrouve.videoUrl, type: "video" },
-        ].filter((item) => item && item.url), // Assure que seuls les éléments valides sont inclus
+        ].filter((item) => item && item.url),
       });
     }
     setModaleOuverte(true);
@@ -55,7 +55,7 @@ export default function Projects() {
         ))}
         <button className={styles.h32} onClick={toggleData}>
           <p>
-            {isInitial ? "PROJET SYSTÈME & RÉSEAU" : "PROJETS DEV"}
+            {isInitial ? "VOIR PROJETS INFRA" : "VOIR PROJETS DEV"}
             <i className="fa-regular fa-hand-point-right"></i>
           </p>
         </button>
