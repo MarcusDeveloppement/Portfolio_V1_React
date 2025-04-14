@@ -14,9 +14,9 @@ export default function Description() {
             Passionné par l'IT, j'ai récemment opéré un changement de cap
             professionnel en me dirigeant vers le développement informatique.
             Cependant, c'est en approfondissant mes connaissances et en suivant
-            ma curiosité que j'ai réalisé que le réseau offrait des aspects plus
-            concrets et tangibles, répondant davantage à mes attentes
-            professionnelles.
+            ma curiosité que j'ai réalisé que le réseau & l'administration
+            offrait des aspects plus concrets et tangibles, répondant davantage
+            à mes attentes professionnelles.
           </p>
           <div className={styles.wavylines}></div>
           <div className={styles.reseaux}>

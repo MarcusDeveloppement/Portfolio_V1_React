@@ -55,7 +55,7 @@ export default function Projects() {
         ))}
         <button className={styles.h32} onClick={toggleData}>
           <p>
-            {isInitial ? "VOIR PROJETS INFRA" : "VOIR PROJETS DEV"}
+            {isInitial ? "PROJETS INFRA" : "PROJETS DEV"}
             <i className="fa-regular fa-hand-point-right"></i>
           </p>
         </button>
@@ -80,7 +80,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Site du projet
+                  Le projet
                 </a>
               )}
               {projetActuel.github && (
