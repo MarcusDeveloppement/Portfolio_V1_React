@@ -15,7 +15,7 @@
     "type": "agdlp",
     "image": "img/Linux.webp",
     "image2": "img/networkDesign.webp",
-    "paragraphe": "porojet de mise en place d'une gestion des droits d'accès structurée avec l'AGLPD (Accounts, Global groups, Domain local groups, Permissions) pour les quatre principaux départements de l'entreprise : Comptabilité, Direction, Achat et Tech. Avec la création de Groupes Globaux et de Domaine Locaux, l'association des groupes et l'attributions des permissions.",
+    "paragraphe": "projet de mise en place d'une gestion des droits d'accès structurée avec l'AGLPD (Accounts, Global groups, Domain local groups, Permissions) pour les quatre principaux départements de l'entreprise : Comptabilité, Direction, Achat et Tech. Avec la création de Groupes Globaux et de Domaine Locaux, l'association des groupes et l'attributions des permissions.",
     "site": "https://github.com/MarcusDeveloppement/WANOptimization",
     "description": "Mise en place de l'AGLPD pour renforcer la sécurité et simplifier la gestion des droits d'accès dans les systèmes informatiques."
   },
@@ -31,12 +31,14 @@
   },
   {
     "id": 8,
-    "titre": "Projet Powershell: Automatiser des tâches",
+    "titre": "Projet Powershell: Importation d'utilisateurs via csv dans l'Active directory",
     "type": "powershell",
-    "image": "img/packet.webp",
-    "image2": "img/securityMonitoring.webp",
-    "paragraphe": "Implémentation d'un firewall de nouvelle génération avec des capacités de prévention des intrusions, gestion des applications et filtrage de contenu pour sécuriser le réseau d'entreprise.",
-    "github": "https://github.com/MarcusDeveloppement/NextGenFirewall",
-    "description": "Déploiement d'une solution de sécurité complète pour protéger les infrastructures critiques contre les menaces modernes."
+    "image": "img/csvSheet.webp",
+    "image2": "img/CréationOU.webp",
+    "image3": "img/ajout-des-utilisateurs.webp",
+    "paragraphe": "L’objectif de ce projet est d’automatiser l’importation d’utilisateurs dans un environnement Active Directory à partir d’un fichier CSV. Grâce à un script PowerShell personnalisé, les comptes sont créés dynamiquement avec génération d’identifiants, affectation dans les bonnes unités d'organisation (OU), vérification des doublons, et génération d’un journal d’importation. Ce processus permet de faciliter et sécuriser la gestion des utilisateurs à grande échelle.",
+    "site": "https://marcusdeveloppement.github.io/Powershell-CSV/",
+    "github": "https://github.com/MarcusDeveloppement/Powershell-CSV",
+    "description": "Le script gère la création des comptes depuis un fichier CSV, les affecte aux bonnes OU, évite les doublons et génère un rapport d’import."
   }
 ]
