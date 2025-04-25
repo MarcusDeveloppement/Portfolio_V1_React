@@ -119,7 +119,7 @@
     z-index: 15;
   }
   &.js {
-    background-image: url(/img/plats1.webp);
+    background-image: url(/img/javascript.webp);
     transition: transform 0.7s;
     grid-area: 1 / 3 / 3 / 5;
     @media (max-width: "765px") {
@@ -127,7 +127,7 @@
     }
   }
   &.react {
-    background-image: url(/img/sportseeSite.webp);
+    background-image: url(/img/graph.webp);
     transition: transform 0.7s;
     grid-area: 2 / 1 / 4 / 3;
     p {
@@ -139,14 +139,14 @@
   }
   &.symphony {
     grid-area: 3 / 3 / 5 / 5;
-    background-image: url(/img/WealthHealth2.webp);
+    background-image: url(/img/react.webp);
     transition: transform 0.7s;
     @media (max-width: "765px") {
       grid-area: 8 / 1 / 10 / 2;
     }
   }
   &.php {
-    background-image: url(/img/blog1.webp);
+    background-image: url(/img/phpImg.webp);
     transition: transform 0.7s;
     grid-area: 4 / 1 / 6 / 3;
     @media (max-width: "765px") {

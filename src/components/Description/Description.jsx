@@ -11,12 +11,14 @@ export default function Description() {
         <div className={styles.textContent}>
           <h2>À PROPOS</h2>
           <p>
-            Passionné par l'IT, j'ai récemment opéré un changement de cap
-            professionnel en me dirigeant vers le développement informatique.
-            Cependant, c'est en approfondissant mes connaissances et en suivant
-            ma curiosité que j'ai réalisé que le réseau & l'administration
-            offrait des aspects plus concrets et tangibles, répondant davantage
-            à mes attentes professionnelles.
+            Passionné par les technologies, j’ai entamé une formation en
+            développement web il y a quatre ans. Cette expérience m’a permis de
+            décrocher un poste d’ingénieur logiciel, où j’ai pu approfondir mes
+            compétences sur le terrain. Aujourd’hui, je poursuis ma montée en
+            compétences à travers une formation en{" "}
+            <strong>Administration des Infrastructures Sécurisées (AIS)</strong>
+            , avec un fort intérêt pour les systèmes, les réseaux et la
+            cybersécurité.
           </p>
           <div className={styles.wavylines}></div>
           <div className={styles.reseaux}>

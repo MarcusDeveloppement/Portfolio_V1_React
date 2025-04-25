@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { useFormik } from "formik";
 import emailjs from "emailjs-com";
 import styles from "./ContactForm.module.scss";
 
 const ContactForm = () => {
+  const [sending, setSending] = useState(false);
+
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -11,11 +13,14 @@ const ContactForm = () => {
       message: "",
     },
     onSubmit: (values, { resetForm }) => {
+      setSending(true);
+
       const templateParams = {
         from_name: values.name,
         reply_to: values.email,
         message: values.message,
       };
+
       emailjs
         .send(
           "service_m5ue83e",
@@ -25,13 +30,15 @@ const ContactForm = () => {
         )
         .then(
           (response) => {
-            console.log("SUCCESS!", response.status, response.text);
+            console.log("SUCCÈS!", response.status, response.text);
             alert("Message envoyé avec succès !");
-            resetForm({});
+            resetForm();
+            setSending(false);
           },
           (err) => {
-            console.log("FAILED...", err);
+            console.log("ÉCHEC...", err);
             alert("Échec de l'envoi du message. Veuillez réessayer.");
+            setSending(false);
           }
         );
     },
@@ -68,6 +75,7 @@ const ContactForm = () => {
             />
           </div>
         </div>
+
         <div className={styles.labelInp}>
           <label htmlFor="message">Message</label>
           <textarea
@@ -77,7 +85,10 @@ const ContactForm = () => {
             value={formik.values.message}
           />
         </div>
-        <button type="submit">Envoyer</button>
+
+        <button type="submit" disabled={sending}>
+          {sending ? "Envoi en cours..." : "Envoyer"}
+        </button>
       </div>
     </form>
   );

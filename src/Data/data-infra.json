@@ -13,21 +13,19 @@
     "id": 6,
     "titre": "Projet Windows server: L'active directory avec l'AGDLP",
     "type": "agdlp",
-    "image": "img/Linux.webp",
-    "image2": "img/networkDesign.webp",
+    "image": "img/construct.webp",
     "paragraphe": "projet de mise en place d'une gestion des droits d'accès structurée avec l'AGLPD (Accounts, Global groups, Domain local groups, Permissions) pour les quatre principaux départements de l'entreprise : Comptabilité, Direction, Achat et Tech. Avec la création de Groupes Globaux et de Domaine Locaux, l'association des groupes et l'attributions des permissions.",
     "site": "https://github.com/MarcusDeveloppement/WANOptimization",
     "description": "Mise en place de l'AGLPD pour renforcer la sécurité et simplifier la gestion des droits d'accès dans les systèmes informatiques."
   },
   {
     "id": 7,
-    "titre": "Projet Linux: Mise en place nouvelle structure",
+    "titre": "Projet Linux : Infrastructure de fichiers sécurisée avec Samba, LDAP et sauvegarde",
     "type": "linux",
-    "image": "img/réseau.webp",
-    "image2": "img/securityMonitoring.webp",
-    "paragraphe": "Automatisation de sauvegarde via un script écrit en python qui permet d'eviter la pertes de données en cas de coupure de courant ou problème logiciel",
-    "github": "https://github.com/MarcusDeveloppement/NextGenFirewall",
-    "description": "Déploiement d'une solution de sécurité complète pour protéger les infrastructures critiques contre les menaces modernes."
+    "image": "img/construct.webp",
+    "paragraphe": "Ce projet simule une infrastructure de fichiers d’entreprise composée de 4 machines virtuelles sous Linux et Windows. Il met en œuvre des services essentiels pour une gestion efficace, centralisée et sécurisée des utilisateurs et des fichiers : annuaire LDAP, serveur Samba, quotas disques, sauvegardes automatiques, et test d’accès depuis un client Windows.",
+    "site": "https://marcusdeveloppement.github.io/Linux-files-server/",
+    "description": "annuaire LDAP, serveur Samba, quotas disques, sauvegardes automatiques, et test d’accès depuis un client Windows."
   },
   {
     "id": 8,

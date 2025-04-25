@@ -47,6 +47,15 @@ function DevSkills() {
         </div>
         <div className={styles.card}>
           <h4>
+            <i className="fa-brands fa-php"></i> PHP
+          </h4>
+          <p>
+            J'ai utilisé php en pdo dans des projets personnels pour développer
+            des Projet CRUD, sutout pour la compréhensiond du principe en POO.
+          </p>
+        </div>
+        <div className={styles.card}>
+          <h4>
             <i className="fa-solid fa-database"></i> SQL
           </h4>
           <p>
