@@ -13,9 +13,11 @@
     "id": 6,
     "titre": "Projet Windows server: L'active directory avec l'AGDLP",
     "type": "agdlp",
-    "image": "img/construct.webp",
-    "paragraphe": "projet de mise en place d'une gestion des droits d'accès structurée avec l'AGLPD (Accounts, Global groups, Domain local groups, Permissions) pour les quatre principaux départements de l'entreprise : Comptabilité, Direction, Achat et Tech. Avec la création de Groupes Globaux et de Domaine Locaux, l'association des groupes et l'attributions des permissions.",
-    "site": "https://github.com/MarcusDeveloppement/WANOptimization",
+    "image": "img/instalAD.webp",
+    "image2": "img/creaDL.webp",
+    "image3": "img/newDisk.webp",
+    "paragraphe": "projet de mise en place d'une gestion des droits d'accès structurée avec l'AGLPD (Accounts, Global groups, Domain local groups, Permissions) pour les quatre principaux départements de l'entreprise : Comptabilité, Direction, Marketing et Tech. Avec la création de Groupes Globaux et de Domaine Locaux, l'association des groupes et l'attributions des permissions.",
+    "site": "https://marcusdeveloppement.github.io/AGDLP_AD/",
     "description": "Mise en place de l'AGLPD pour renforcer la sécurité et simplifier la gestion des droits d'accès dans les systèmes informatiques."
   },
   {
