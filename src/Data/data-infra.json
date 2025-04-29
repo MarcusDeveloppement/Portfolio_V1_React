@@ -24,7 +24,7 @@
     "id": 7,
     "titre": "Projet Linux : Infrastructure de fichiers sécurisée avec Samba, LDAP et sauvegarde",
     "type": "linux",
-    "image": "img/construct.webp",
+    "image": "img/waiting.webp",
     "paragraphe": "Ce projet simule une infrastructure de fichiers d’entreprise composée de 4 machines virtuelles sous Linux et Windows. Il met en œuvre des services essentiels pour une gestion efficace, centralisée et sécurisée des utilisateurs et des fichiers : annuaire LDAP, serveur Samba, quotas disques, sauvegardes automatiques, et test d’accès depuis un client Windows.",
     "site": "https://marcusdeveloppement.github.io/Linux-files-server/",
     "description": "annuaire LDAP, serveur Samba, quotas disques, sauvegardes automatiques, et test d’accès depuis un client Windows."
